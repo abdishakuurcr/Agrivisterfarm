@@ -1,0 +1,612 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+padding: 0;
+margin: 0;
+font-family: Montserrat;
+
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+padding: 20px 60px;
+align-content: center;
+/* background-color: rgb(236, 27, 27); */
+}
+.header ul {
+display: flex;
+gap: 60px;
+list-style: none;
+font-size: 28px;
+}
+.Loginbtn {
+background-color: #204E51;
+font-size: 20px;
+color: white;
+border: none;
+border-radius: 12px;
+padding: 12px 35px;
+
+}
+.Singbtn {
+    background-color: white;
+    font-size: 20px;
+    color: #204E51;
+    border: 3px #204E51 solid;
+    border-radius: 12px;
+    padding: 10px 30px;
+}
+
+.hero {
+height: 550px;
+background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+url("https://img.freepik.com/premium-photo/meadow-coniferous-forest-bench_666008-105.jpg?w=740");
+background-size: 100% 550px;
+background-repeat: no-repeat;
+text-align: center;
+color: white;
+}
+.hero h1 {
+padding-top: 80px;
+font-size: 80px;
+}
+.hero p {
+margin-bottom: 40px;
+}
+.Getstarted {
+    background-color: #204E51;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 40px;
+}
+
+.Learnmore {
+    background-color: white;
+    font-size: 20px;
+    color: #204E51;
+    border: 3px #204E51 solid;
+    border-radius: 12px;
+    padding: 10px 40px;
+}
+/* .box {
+width: 200px;
+background-color: aqua;
+height: 200px;
+color: white;
+position: absolute;
+bottom: 0px;
+left: 100px; */
+/* } */
+.parent-box {
+    position: relative;
+    height: 150px;
+    width: 200px;
+    padding-top: 180px;
+    margin: 190px;
+    border-radius: 980%;
+
+}
+.parent-box img {
+    position: relative;
+    height: 150px;
+    width: 200px; 
+
+}
+.box {
+    width: 200px;
+    background-color: aqua;
+    height: 200px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+}
+
+
+
+.sup-hero{
+    display: flex;
+    background-color: white;
+    height: 600px;
+    gap: 100px;
+    position: relative;
+    margin: 20px 40px;
+}
+.sup-hero1{
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 20px 30px;
+}
+.sup-hero1 p{
+    font-size: 20px;
+}
+.sup-hero1 button{
+    font-size: 30px;
+    color: white;
+    padding: 13px;
+    margin-top: 20px;
+    background-color: #204E51;
+    border-radius: 12px;
+}
+.sup-hero1 h1{
+    font-size: 50px;
+}
+.sup-hero2{
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+.sup-hero2 img{
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.sup-hero2 button{
+    width: 150px;
+    height: 90px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(247, 247, 247);
+    height: 50px;
+    border-radius: 16px;
+    /* position: absolute; */
+ top: 460px;
+  left: 150px;
+
+}
+
+.service-title {
+text-align: center;
+
+}
+.service-title h1 {
+font-size: 120px;
+}
+.service-title p {
+margin: 10px 400px;
+}
+.serve-parent{
+display: flex;
+justify-content: center;
+gap: 40px;
+margin: 50px 2px;
+}
+.service {
+border-radius: 10px;
+width: 250px;
+height: 300px;
+background-color: rgb(217, 208, 226);
+margin: 12px;
+text-align: center;
+}
+.service i {
+padding-top: 80px;
+font-size: 60px;
+padding-bottom: 17px;
+}
+.prodect-parent {
+display: flex;
+gap: 60px;
+justify-content: center;
+margin: 50px 2px;
+}
+.prodect {
+    
+width: 250px;
+text-align: center;
+height: 500px;
+border-radius: 10px;
+padding-top: 30px;
+}
+.prodect img {
+width: 200px;
+border-radius: 12px;
+margin-bottom: 30px;
+}
+.sustian {
+padding: 40px;
+background-repeat: no-repeat;
+background-size: 100% 500px;
+height: 500px;
+background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)),
+ url("https://img.freepik.com/premium-photo/meadow-coniferous-forest-bench_666008-105.jpg?w=740");
+}
+.sustian h1 {
+font-size: 90px;
+color: white;
+margin-bottom: 40px;
+
+}
+.btn1{
+    background-color: white;
+    font-size: 20px;
+    color: #204E51;
+    border: 3px #204E51 solid;
+    border-radius: 12px;
+    padding: 10px 30px;
+}
+.btn2 {
+    background-color: rgb(125, 114, 136);
+    font-size: 20px;
+    color: #204E51;
+    border: 3px #204E51 solid;
+    border-radius: 12px;
+    padding: 10px 30px;
+}
+.Benefits-parent {
+display: flex;
+justify-content: center;
+gap: 100px;
+}
+.Benefit-left {
+width: 550px;
+margin-top: 40px;
+}
+.Benefits-right {
+width: 300px;
+height: 190px;
+border-radius: 12px;
+background-color: #204E51;
+}
+.Benefit-left h1 {
+font-size: 66px;
+margin-bottom: 20px;
+}
+.Benefit-left p {
+margin-bottom: 30px;
+}
+.btn1{
+    background-color: white;
+    font-size: 20px;
+    color: #204E51;
+    border: 3px #204E51 solid;
+    border-radius: 12px;
+    padding: 10px 20px;
+}
+.icon-parent {
+margin: 30px;
+display: flex;
+gap: 60px;
+color: white;
+}
+.icon-parent i {
+font-size: 70px;
+}
+.icon-parent h1 {
+font-size: 60px;
+}
+.blog-parent h1 {
+font-size: 50px;
+margin-bottom: 10px;
+}
+.blog-parent p {
+color: black;
+line-height: 18px;
+margin: 10px 200px;
+}
+.blog-parent {
+text-align: center;
+grid-template-columns: 100px 1000px 100px; 
+margin-bottom: 30px;
+border-radius: 14px;
+margin-left: -660px;
+padding: 40px;
+
+}
+
+.blog {
+border-radius: 12px;
+margin: 12px;
+padding: 40px;
+width: 800px;
+height: 300px;
+background-color: #204E51;
+margin-right: 400px;
+display: flex;
+justify-content: center;
+}
+.blog-content {
+color: #fff;
+padding: 20px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+}
+.blog-content img {
+border-radius: 20%;
+width: 400px;
+height: 200px;
+margin-right: -90px;
+}
+.blog-text i {
+color: gold;
+font-size: 25px;
+margin-top: 20px;
+}
+.blog-text h1 {
+margin: 5px 50px;
+margin-right:  20px;
+}
+.blog-text p{
+font-size: 20px;
+color: #bbb;
+margin-bottom: 10px;
+}
+.smol-parent {
+margin-bottom: 40px;
+background-color: #fff;
+padding: 20px;
+text-align: center;
+border-radius: 12px;
+width: 400px;
+margin-left:  -300px;
+}
+ .smol-parent h1 {
+font-size: 30px;
+margin-bottom: 20px;
+ }
+ .smol-parent p {
+color: #777;
+margin: 12px;
+ }
+
+ .smol {
+ display: flex;
+ text-align: center;
+ gap: 10px;
+ margin-top: 20px;
+ justify-content: center;
+ } 
+ .smol-post img{
+width: 300px;
+height: 200px;
+border-radius: 10px;
+margin-right: 100PX;
+ }
+ .smol-post p {
+font-size: 20px;
+
+
+ }
+.smol-post button {
+padding: 10px 20px;
+margin-top: 10px;
+border: none;
+}
+.foter-parent {
+background-color: white;
+padding: 10px 20px;
+
+
+}
+.foter {
+    margin-bottom: 40px;
+    background-color: #204E51;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    width: 1400px;
+    height: 500px;
+    margin-left:  -800px;
+    margin-right: -500px;
+
+}
+
+.foter-parent {
+display: flex;
+justify-content: space-between;
+
+}
+.cabdi {
+background-color: #fff;
+}
+.foter {
+color: white;
+display: flex;
+justify-content: space-between;
+gap: 10px;
+}
+.foter h1 {
+font-size: 50px;
+margin-left:  -80px;
+margin-top:  26%;
+}
+.foter p1 {
+font-size: 10px 18px;
+
+}
+.text1-right h2 ul{
+    font-size: 50px;
+    margin-left:  -1000px;
+    margin-top:  120px;
+    list-style: none;
+}
+
+.text-main h3 ul {
+    font-size: 50px;
+   color: white;
+    margin-top:  160%;
+    list-style: none;
+margin-left:  -100px;
+}
+     
+
+@media screen and (max-width: 600px) {
+    .header  ul {
+    display: none;
+    }
+    .Loginbtn {
+        display: none;
+    }
+    .Singbtn{
+    display: none;
+    }
+    .header{
+    padding: 12px;
+    }
+    .header h1 {
+    font-size: 30px;
+    }
+    .header i{
+        font-size: 50px;
+        margin-left: 80px;
+      
+    }
+    .hero h1 {
+    font-size: 30px;
+    margin: 10px  20px;
+    }
+    .Getstarted {
+    margin-bottom: 30px;
+    }
+    .Learnmore {
+        background-color: beige;
+    margin-bottom: 30px;
+    }
+ .sup-hero {
+ display: block;
+ }
+ .sup-hero h1 {
+ font-size: 20px;
+ width: 700px;
+ margin: 0px;
+ width: 300px;
+ }
+ .sup-hero p {
+ font-size: 12px;
+ width: 300px;
+ }
+ .sup-hero img {
+width: 350px;
+height: 300px;
+margin-top: 0px;
+ }
+ .service-title h1 {
+font-size: 30px;
+margin-top: 50px;
+
+ }
+ .service-title p {
+ font-size: 20px;
+ width: 350px;
+margin-left: 20px;
+ }
+ .serve-parent {
+display: block;
+
+ }
+ .service {
+ margin: 60px;
+ }
+ .prodect-parent {
+ display: block;
+
+ }
+.sustian h1{
+font-size: 30px;
+}
+.prodect img{
+margin: 50px;
+width: 300px;
+height: 200px;
+margin-bottom: 0px;
+}
+.prodect p {
+margin: 20px;
+width: 400px;
+}
+.Benefits-parent {
+display: block;
+margin: 40px;
+}
+.Benefit-left h1 {
+ font-size: 35px;
+ width: 450px;
+ margin: 20px;
+}
+.Benefit-left p {
+font-size: 10px;
+width: 300px;
+margin: 20px;
+}
+.btn1 {
+margin: 20px;
+}
+.blog-parent {
+display: block;
+margin-left: 50px;
+width: 200px;
+/* height: 800px; */
+margin-bottom: 0px;
+}
+.blog-parent h1 {
+ font-size: 30px;
+}
+.blog-parent p {
+font-size: 14px;
+width: 200px;
+margin-left: -10px;
+}
+.blog {
+display: block;
+margin-left: -100px;
+margin-right: 0px;
+width: 300px;
+height: 450px;
+}
+.blog-content{
+display: block;
+margin-left: 0px;
+}
+.blog-content img {
+margin-left: -150px;
+width: 200px;
+}
+.blog-content h1 {
+margin-left: 0px;
+}
+.blog-content p {
+margin-left: 0px;
+width: 300px;
+}
+.smol-parent {
+display: block;
+margin-left: 0px;
+}
+.smol {
+display: block;
+margin-left: 0px;
+margin-top: 12px;
+}
+.foter-parent {
+display: block;
+margin-left: 0px;
+}
+.foter {
+display: block;
+margin-left: 0px;
+margin-right: 0px;
+width: 350px;
+margin-left: -50px;
+height: 350px;
+}
+.foter h1 {
+font-size: 30px;
+margin-left: 0px;
+}
+.foter p1 {
+font-size: 14px;
+}
+.foter ul {
+list-style: none;
+}
+}
+
+
+
+
+
